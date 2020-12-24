@@ -1,0 +1,29 @@
+Rango edad presentación del tumor,0-4 años,5-9 años,10-14 años,14-18 años,19-50 años,mayor de 50
+Sexo,F,M
+Diagnóstico,ADENOMA HIPOFISIARIO,HEMANGIOBLASTOMA,MENINGIOMA,CORDOMA,CRANEOFARINGIOMA,GLIOBLASTOMA MULTIFORME,MENINGIOMA ATIPICO,METASTASIS,MENINGIOMA MENINGOTELIAL ATIPICO,SCHWANNOMA NEURILEMOMA,HEMANGIOPERCITOMA,TUMOR EMBRIONARIO,EPENDIMOMA
+Tipo Estudio,RM,RM CEREBRO,CT,CT CEREBRO,RM OIDOS+PARES CRANEALES,RMN CEREBRAL + CTE,RMN CEREBRAL + CT
+Localización,Intraaxial - Cerebro,Intraaxial - Pineal,Intraaxial - Región selar,Intraaxial - Tallo,Intraaxial - Cerebelo,Extraaxial - Ventriculares,Extraaxial - Cisternas,Extraaxial - Durales,Extraaxial - Otras
+Número de lesiones,Única,Múltiples
+Margenes,Infiltrante,Circunscrito
+Caracteristicas principales,Sólido,Quístico,Mixto
+Caracteristicas secundarias,Necrosis,Hemorragia,Calcificación,Cola dural,Ninguna
+Difusión,Si,No,No aplica
+Edema vasogenico,Si,No
+Realce con el medio de contraste,Homogeneo,Heterogeneo,Anillo completo+listo+irregular,anillo completo+grueso+irregular,incompleto,no,NA
+Efectos tumorales,Hidrocefalia,Alteraciones estructurales locales,Isquemicos,Metastasis,no
+Sintomas HEC,Presente,Ausente,NO DATO
+Sindrome motor,Presente,Ausente,NO DATO
+Sindrome sensitivo,Presente,Ausente,NO DATO
+Sindrome cerebeloso,Presente,Ausente,no dato
+Alteracion de organos de los sentidos,Tacto,Olfato,Visual,Auditivo,Gusto,no,NO DATO
+Afasia o alteracion del lenguaje,Si,No,NO DATO
+Sindrome convulsivo,Si,No,NO DATO
+Alteracion del comportamiento,Si,No,NO DATO
+Lipotimia,Lipotimia,No,NO DATO
+Cefalea,Si,No,NO DATO
+Reporte histopatologico,Confirmado,No,NO DATO,Se realizo biopsia
+Tratamiento,Cirugia,Quimioterapia,Radioterapia,Mixto,Observar,NO DATO
+Tipo de tratamiento mixto,Quimio y radioterapia,Cirugia y radioterapia,Cirugia, quimio y radioterapia,No aplica,
+Mortalidad,Si,No,NO DATO
+Tipo de tumor,Primario,Metastasico,NO DATO
+Lugar de metastasis,Higado,Pulmon,Bronquios,No aplica

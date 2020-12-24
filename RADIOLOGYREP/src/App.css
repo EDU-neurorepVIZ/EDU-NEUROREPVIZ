@@ -1,0 +1,257 @@
+img {
+  z-index: -1;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.header {
+  clear: both;
+}
+
+.footer {
+  clear: both;
+}
+
+.session-form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 90%;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 10vh;
+  flex: 1;
+}
+
+.form-content {
+  flex: 1;
+}
+
+.form-content > div {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.rayita {
+  display: flex;
+}
+
+.rayita button {
+  background: none;
+  border: none;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.boton-adelante {
+  margin-left: auto;
+}
+
+.boton-adelante:disabled {
+  background-color: lightgrey;
+}
+
+.showcase {
+  border-top: 2px solid #1e88e5;
+}
+
+.paso-1-holder {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.paso-1-holder button {
+  width: 20vw;
+  height: 30vh;
+  background: none;
+  border: none;
+  background-color: lightgray;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+.button-selected {
+  background-color: #1e88e5 !important;
+}
+
+.form-content > div form {
+  display: flex;
+}
+
+.form-content > div ul {
+  font-size: 1.5rem;
+}
+
+.agregar-boton {
+  background: none;
+  border: none;
+  background-color: #1e88e5;
+  color: white;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+#session-choice-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.scenario-list {
+  flex: 1;
+}
+
+.center-it {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scenario-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scenario-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-page {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  min-height: 100%;
+}
+
+.group-page-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.group-list-item {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 35vw;
+  padding: 1rem;
+}
+
+.group-list-item h5 {
+  flex: 1;
+}
+
+.group-section-container {
+  display: flex;
+}
+
+.group-section-container > div {
+  flex-basis: 50%;
+}
+
+.view-sample-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+textarea {
+  resize: none;
+}
+
+.navio-disabled rect {
+  pointer-events: none !important;
+}
+
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  .customDatePickerWidth
+  > div
+  > div.react-datepicker__input-container
+  input {
+  width: 100%;
+}
+
+.button-like-link {
+  font-size: 1.5rem;
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.submission-selected {
+  border: 1px solid #1e88e5;
+}
+
+.main-color {
+  color: #1e88e5;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #1e88e5;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #1e88e5 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

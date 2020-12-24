@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Repositorio</title>
+
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+    />
+
+    <link href="./mystyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="me">
+    <div id="app"></div>
+
+    <script src="bundle.js"></script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".slider");
+        var instances = M.Slider.init(elems, {
+          indicators: false,
+          interval: 3000,
+          height: window.innerWidth * 0.6
+        });
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".slider");
+        var instances = M.Slider.init(elems, {
+          indicators: false,
+          interval: 3000,
+          height: window.innerWidth * 0.6
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems, { preventScrolling: false });
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".sidenav");
+        var instances = M.Sidenav.init(elems, { preventScrolling: false });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".modal");
+        var instances = M.Modal.init(elems, {});
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".modal");
+        var instances = M.Modal.init(elems, {});
+      });
+    </script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".collapsible");
+        var instances = M.Collapsible.init(elems, {});
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".collapsible");
+        var instances = M.Collapsible.init(elems, {});
+      });
+    </script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".parallax");
+        var instances = M.Parallax.init(elems, {});
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".parallax");
+        var instances = M.Parallax.init(elems, {});
+      });
+    </script>
+
+    <script>
+      document.addEventListener("component", function() {
+        var elems = document.querySelectorAll(".dropdown-trigger");
+        var instances = M.Dropdown.init(elems, {});
+      });
+
+      document.addEventListener("DOMContentLoaded", function() {
+        var elems = document.querySelectorAll(".dropdown-trigger");
+        var instances = M.Dropdown.init(elems, {});
+      });
+    </script>
+  </body>
+</html>

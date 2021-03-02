@@ -183,11 +183,11 @@ class CreateChallengeForm extends Component {
 
           <label>
             <h5>Enunciado: </h5>
-            <input type="file" ref={this.fileInput} />
+            <input type="file" ref={this.fileInput} required />
           </label>
           <label>
             <h5>Retroalimentación: </h5>
-            <input type="file" ref={this.fileInputFeedback} />
+            <input type="file" ref={this.fileInputFeedback} required />
           </label>
           {this.state.selectedSample ? (
             <label>

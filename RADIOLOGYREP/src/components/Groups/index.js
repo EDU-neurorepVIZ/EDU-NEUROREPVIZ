@@ -226,7 +226,7 @@ class index extends Component {
           axios
             .post(API+"/group", {
               ownerEmails:
-                this.props.userAuth.email +
+                this.props.userAuth.email +  "," +
                 (newTeachers.length > 1 ? "" : ",") +
                 newTeachers.join(","),
               name: name,
